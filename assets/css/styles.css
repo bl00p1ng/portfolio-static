@@ -36,7 +36,7 @@ ul {
 }
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 95%;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -274,7 +274,6 @@ ul {
     background-color: #6b4bd0;
 }
 
-/* Sección de Contacto */
 /* Sección de Contacto */
 .contact {
     padding: 60px 0;
