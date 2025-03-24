@@ -109,7 +109,7 @@ ul {
 /* Botones */
 .button {
     display: inline-block;
-    border-radius: 4px;
+    border-radius: 16px;
     font-weight: 500;
     transition: all 0.3s ease;
     padding: 10px 25px;
@@ -359,7 +359,7 @@ ul {
 .contact__input,
 .contact__textarea {
     width: 100%;
-    padding: 15px;
+    padding: 8px;
     background: var(--color-bg-primary);
     border: 2px solid var(--color-gray);
     border-radius: 16px;
@@ -367,7 +367,6 @@ ul {
     font-family: 'Heebo', sans-serif;
     transition: border-color 0.3s ease;
     outline: none;
-    font-size: 14px;
 }
 
 .contact__input:focus,
@@ -391,8 +390,8 @@ ul {
     border: none;
     padding: 12px 30px;
     font-family: 'Heebo', sans-serif;
-    font-weight: 500;
-    border-radius: 6px;
+    font-weight: 700;
+    border-radius: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     width: 100%;
