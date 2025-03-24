@@ -282,11 +282,11 @@ ul {
 
 .contact__title {
     margin-bottom: 30px;
-    position: relative;
+    text-align: center;
 }
 
 .contact__title-text {
-    color: var(--color-accent);
+    color: var(--color-white);
     font-size: 1.75rem;
     font-weight: 600;
 }
@@ -302,6 +302,7 @@ ul {
 .card {
     position: relative;
     width: 100%;
+    max-width: 800px;
     background-color: var(--color-bg-primary);
     display: flex;
     flex-direction: column;
@@ -313,9 +314,7 @@ ul {
 .card::before {
     content: '';
     position: absolute;
-    top: -3px; 
-    right: -3px; 
-    bottom: -3px; 
+    inset: 0;
     left: -5px;
     margin: auto;
     width: calc(100% + 10px);
@@ -336,7 +335,7 @@ ul {
     background: linear-gradient(-45deg, var(--color-accent) 0%, var(--color-tertiary) 100%);
     transform: translate3d(0, 0, 0) scale(0.95);
     filter: blur(20px);
-    transition: all 0.5s;
+    /* transition: all 0.5s; */
 }
 
 /* Animación al hover */
@@ -345,7 +344,7 @@ ul {
 }
 
 .card:hover::before {
-    transform: rotate(-4deg) scale(1.05);
+    transform: rotate(-180deg);
 }
 
 /* Estilos del formulario */
@@ -361,13 +360,14 @@ ul {
 .contact__textarea {
     width: 100%;
     padding: 15px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
+    background: var(--color-bg-primary);
+    border: 2px solid var(--color-gray);
+    border-radius: 16px;
     color: var(--color-text-primary);
     font-family: 'Heebo', sans-serif;
     transition: border-color 0.3s ease;
     outline: none;
+    font-size: 14px;
 }
 
 .contact__input:focus,
