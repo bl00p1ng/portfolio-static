@@ -412,17 +412,7 @@ ul {
     font-size: 0.9rem;
 }
 
-/* Media queries para responsive */
-@media (max-width: 768px) {
-    .card {
-        padding: 20px;
-    }
-    
-    .contact__input,
-    .contact__textarea {
-        padding: 12px;
-    }
-}
+
 
 /*************** RESPONSIVE ***************/
 /* Responsive hero */
@@ -483,6 +473,18 @@ ul {
 @media (max-width: 768px) {
     .contact__card {
         max-width: 100%;
+    }
+    
+    .contact__input,
+    .contact__textarea {
+        padding: 12px;
+    }
+}
+
+/* Media queries para responsive */
+@media (max-width: 768px) {
+    .card {
+        padding: 20px;
     }
     
     .contact__input,
