@@ -444,11 +444,12 @@ ul {
 
 @media (max-width: 480px) {
     .header__menu {
-        gap: 15px;
+        width: 100%;
+        justify-content: space-between;
     }
     
     .hero__title {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 }
 
